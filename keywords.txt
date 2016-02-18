@@ -1,0 +1,52 @@
+#######################################
+# Syntax Coloring Map For Warefab TFT
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Warefab_TFT	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin KEYWORD2
+uartSpeed    KEYWORD2
+drawPixel     KEYWORD2
+setFont     KEYWORD2
+drawChar     KEYWORD2
+drawText     KEYWORD2
+penColor     KEYWORD2
+brushColor     KEYWORD2
+textBackColor     KEYWORD2
+fillScreen     KEYWORD2
+clearScreen     KEYWORD2
+drawCircle     KEYWORD2
+fillCircle     KEYWORD2
+drawEllipse     KEYWORD2
+fillEllipse     KEYWORD2
+drawArc     KEYWORD2
+drawRectangle     KEYWORD2
+fillRectangle     KEYWORD2
+drawTriangle     KEYWORD2
+fillTriangle     KEYWORD2
+drawLine     KEYWORD2
+drawVHLine     KEYWORD2
+getSensorData     KEYWORD2
+drawImage     KEYWORD2
+drawBitmap     KEYWORD2
+setBrightness     KEYWORD2
+rotateDisplay     KEYWORD2
+power     KEYWORD2
+reset KEYWORD2
+font     KEYWORD2
+rotate     KEYWORD2
+#######################################
+# Constants (LITERAL1)
+#######################################
+touchX  LITERAL1
+touchY  LITERAL1
+irCode  LITERAL1
+height  LITERAL1
+width   LITERAL1
