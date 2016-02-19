@@ -287,19 +287,6 @@ void Warefab_TFT::power(uint8_t st)
 }
 //draw bitmap image
 void Warefab_TFT::drawBitmap(uint16_t x, uint16_t y,
-                             const uint8_t *bitmap, uint16_t w, uint16_t h)
-{
-  int16_t i, j, byteWidth = (w + 7) / 8;
-  for (j = 0; j < h; j++) {
-    for (i = 0; i < w; i++ ) {
-      if (pgm_read_byte(bitmap + j * byteWidth + i / 8) & (128 >> (i & 7))) {
-        drawPixel(x + i, y + j);
-      }
-    }
-  }
- }
-//draw bitmap image
-void Warefab_TFT::drawBitmap(uint16_t x, uint16_t y,
                              const uint8_t *bitmap, uint16_t w, uint16_t h, uint16_t len)
 {
   sprintf(cmd, "[C5,%d,%d,%d,%d,%d]", x, y, w, h, len);

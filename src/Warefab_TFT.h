@@ -77,8 +77,6 @@ class Warefab_TFT
     uint8_t getSensorData();
     void drawImage(uint16_t x, uint16_t y, uint16_t w, uint16_t h,
                    unsigned int *image, unsigned int len);
-    void drawBitmap(uint16_t x, uint16_t y,
-                    const uint8_t *bitmap, uint16_t w, uint16_t h);
     void drawBitmap(uint16_t x, uint16_t y, const uint8_t *bitmap,
                     uint16_t w, uint16_t h, uint16_t len);
     void setBrightness(uint8_t b);
