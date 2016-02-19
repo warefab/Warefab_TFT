@@ -108,7 +108,6 @@ class Warefab_TFT
     uint8_t sensor_data[15];
     char cmd[50], *p;
     inline void sensorEval(char *);
-    float getTemp(uint16_t tp);
     void setColorHelper(uint8_t c, uint8_t r, uint8_t g, uint8_t b);
     inline void sendHelper(char *);
 
@@ -119,4 +118,4 @@ class Warefab_TFT
     uint8_t sc;
 };
 
-#endif /* SCRATCH_N_SKETCH_H_ */
+#endif /* WAREFAB_TFT_H_ */
