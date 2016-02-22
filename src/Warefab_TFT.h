@@ -19,24 +19,24 @@
 #define swap(a,b) ((uint16_t n = b); b = a; a = n;)
 //fonts struct
 typedef struct {
-  char terminal = 'i';
-  char ocr      = 'c';
-  char peanut   = 'd';
-  char comic    = 'o';
-  char calibri  = 'f';
+  static const char terminal = 'i';
+  static const char ocr      = 'c';
+  static const char peanut   = 'd';
+  static const char comic    = 'o';
+  static const char calibri  = 'f';
   //char consolas = 'g';
   //char droid    = 's';
-  char elephant = 'h';
-  char atomic   = 'a';
-  char icon   = 'p';
-  char icon_l = 'q';
+  static const char elephant = 'h';
+  static const char atomic   = 'a';
+  static const char icon   = 'p';
+  static const char icon_l = 'q';
 } Font;
 //rotation struct
 typedef struct {
-  char rotate_0   = 'p';
-  char rotate_90  = 'i';
-  char rotate_180 = 'q';
-  char rotate_270 = 'n';
+  static const char rotate_0   = 'p';
+  static const char rotate_90  = 'i';
+  static const char rotate_180 = 'q';
+  static const char rotate_270 = 'n';
 } Rotate;
 //class
 class Warefab_TFT
